@@ -1,0 +1,176 @@
+cp earth.modelBURG-SUM earth.model
+
+nice decay4m << ! > /dev/null
+2 800
+!
+
+nice decay << ! > /dev/null
+2 800
+!
+
+
+nice vsphm << ! > /dev/null
+0.0
+!
+nice vtordep << ! > /dev/null
+0.0
+!
+nice strainA < strainx.inSUM1.PROF > /dev/null
+mv strainA.out strainA.outSUM1_0.0
+nice strainA < strainx.inSUM2.PROF > /dev/null
+mv strainA.out strainA.outSUM2_0.0
+nice strainA < strainx.inSUM3.PROF > /dev/null
+mv strainA.out strainA.outSUM3_0.0
+nice strainA < strainx.inSUM4.PROF > /dev/null
+mv strainA.out strainA.outSUM4_0.0
+
+nice vsphm << ! > /dev/null
+10.
+!
+nice vtordep << ! > /dev/null
+10.
+!
+nice strainA < strainx.inSUM1.PROF > /dev/null
+mv strainA.out strainA.outSUM1_10.0
+nice strainA < strainx.inSUM2.PROF > /dev/null
+mv strainA.out strainA.outSUM2_10.0
+nice strainA < strainx.inSUM3.PROF > /dev/null
+mv strainA.out strainA.outSUM3_10.0
+nice strainA < strainx.inSUM4.PROF > /dev/null
+mv strainA.out strainA.outSUM4_10.0
+
+nice vsphm << ! > /dev/null
+20.0
+!
+nice vtordep << ! > /dev/null
+20.0
+!
+nice strainA < strainx.inSUM1.PROF > /dev/null
+mv strainA.out strainA.outSUM1_20.0
+nice strainA < strainx.inSUM2.PROF > /dev/null
+mv strainA.out strainA.outSUM2_20.0
+nice strainA < strainx.inSUM3.PROF > /dev/null
+mv strainA.out strainA.outSUM3_20.0
+nice strainA < strainx.inSUM4.PROF > /dev/null
+mv strainA.out strainA.outSUM4_20.0
+
+nice vsphm << ! > /dev/null
+30.0
+!
+nice vtordep << ! > /dev/null
+30.0
+!
+nice strainA < strainx.inSUM1.PROF > /dev/null
+mv strainA.out strainA.outSUM1_30.0
+nice strainA < strainx.inSUM2.PROF > /dev/null
+mv strainA.out strainA.outSUM2_30.0
+nice strainA < strainx.inSUM3.PROF > /dev/null
+mv strainA.out strainA.outSUM3_30.0
+nice strainA < strainx.inSUM4.PROF > /dev/null
+mv strainA.out strainA.outSUM4_30.0
+
+nice vsphm << ! > /dev/null
+40.0
+!
+nice vtordep << ! > /dev/null
+40.0
+!
+nice strainA < strainx.inSUM1.PROF > /dev/null
+mv strainA.out strainA.outSUM1_40.0
+nice strainA < strainx.inSUM2.PROF > /dev/null
+mv strainA.out strainA.outSUM2_40.0
+nice strainA < strainx.inSUM3.PROF > /dev/null
+mv strainA.out strainA.outSUM3_40.0
+nice strainA < strainx.inSUM4.PROF > /dev/null
+mv strainA.out strainA.outSUM4_40.0
+
+nice vsphm << ! > /dev/null
+50.0
+!
+nice vtordep << ! > /dev/null
+50.0
+!
+nice strainA < strainx.inSUM1.PROF > /dev/null
+mv strainA.out strainA.outSUM1_50.0
+nice strainA < strainx.inSUM2.PROF > /dev/null
+mv strainA.out strainA.outSUM2_50.0
+nice strainA < strainx.inSUM3.PROF > /dev/null
+mv strainA.out strainA.outSUM3_50.0
+nice strainA < strainx.inSUM4.PROF > /dev/null
+mv strainA.out strainA.outSUM4_50.0
+
+nice vsphm << ! > /dev/null
+60.0
+!
+nice vtordep << ! > /dev/null
+60.0
+!
+nice strainA < strainx.inSUM1.PROF > /dev/null
+mv strainA.out strainA.outSUM1_60.0
+nice strainA < strainx.inSUM2.PROF > /dev/null
+mv strainA.out strainA.outSUM2_60.0
+nice strainA < strainx.inSUM3.PROF > /dev/null
+mv strainA.out strainA.outSUM3_60.0
+nice strainA < strainx.inSUM4.PROF > /dev/null
+mv strainA.out strainA.outSUM4_60.0
+
+nice vsphm << ! > /dev/null
+70.0
+!
+nice vtordep << ! > /dev/null
+70.0
+!
+nice strainA < strainx.inSUM1.PROF > /dev/null
+mv strainA.out strainA.outSUM1_70.0
+nice strainA < strainx.inSUM2.PROF > /dev/null
+mv strainA.out strainA.outSUM2_70.0
+nice strainA < strainx.inSUM3.PROF > /dev/null
+mv strainA.out strainA.outSUM3_70.0
+nice strainA < strainx.inSUM4.PROF > /dev/null
+mv strainA.out strainA.outSUM4_70.0
+
+nice vsphm << ! > /dev/null
+80.0
+!
+nice vtordep << ! > /dev/null
+80.0
+!
+nice strainA < strainx.inSUM1.PROF > /dev/null
+mv strainA.out strainA.outSUM1_80.0
+nice strainA < strainx.inSUM2.PROF > /dev/null
+mv strainA.out strainA.outSUM2_80.0
+nice strainA < strainx.inSUM3.PROF > /dev/null
+mv strainA.out strainA.outSUM3_80.0
+nice strainA < strainx.inSUM4.PROF > /dev/null
+mv strainA.out strainA.outSUM4_70.0
+
+nice vsphm << ! > /dev/null
+90.0
+!
+nice vtordep << ! > /dev/null
+90.0
+!
+nice strainA < strainx.inSUM1.PROF > /dev/null
+mv strainA.out strainA.outSUM1_90.0
+nice strainA < strainx.inSUM2.PROF > /dev/null
+mv strainA.out strainA.outSUM2_90.0
+nice strainA < strainx.inSUM3.PROF > /dev/null
+mv strainA.out strainA.outSUM3_90.0
+nice strainA < strainx.inSUM4.PROF > /dev/null
+mv strainA.out strainA.outSUM4_90.0
+
+nice vsphm << ! > /dev/null
+100.0
+!
+nice vtordep << ! > /dev/null
+100.0
+!
+nice strainA < strainx.inSUM1.PROF > /dev/null
+mv strainA.out strainA.outSUM1_100.0
+nice strainA < strainx.inSUM2.PROF > /dev/null
+mv strainA.out strainA.outSUM2_100.0
+nice strainA < strainx.inSUM3.PROF > /dev/null
+mv strainA.out strainA.outSUM3_100.0
+nice strainA < strainx.inSUM4.PROF > /dev/null
+mv strainA.out strainA.outSUM4_100.0
+
