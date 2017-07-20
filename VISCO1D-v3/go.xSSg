@@ -1,0 +1,19 @@
+cp earth.modelBURG30 earth.model
+
+nice decay4m << ! > /dev/null
+2 1500
+!
+nice vsphm << ! > /dev/null
+10.
+!
+
+nice decay << ! > /dev/null
+2 1500
+!
+nice vtordep << ! > /dev/null
+10.
+!
+
+nice strainA < strainx.inSS > /dev/null
+mv strainA.out strainA.outSSg
+
